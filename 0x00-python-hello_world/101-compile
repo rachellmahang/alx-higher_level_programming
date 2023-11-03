@@ -1,0 +1,3 @@
+#!/bin/sh
+python - m py_compile $PYFILE
+mv __pycache__ /$PYFILE.cpython-38.pyc $PYFILEc
